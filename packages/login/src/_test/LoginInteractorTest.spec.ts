@@ -1,5 +1,5 @@
 import { describe, expect, it } from '@jest/globals';
-import { LoginInteractorImpl } from '@repo/login/LoginInteractorImpl';
+import { LoginInteractorImpl } from '../usecases/LoginInteractorImpl';
 
 describe('LoginInteractor', () => {
   it('should login', () => {
