@@ -1,5 +1,5 @@
-import { LoginPresenter } from '../../usecases/LoginPresenter';
-import { LoginResponse } from '../../usecases/LoginResponse';
+import { LoginPresenter } from '../../use-cases/LoginPresenter';
+import { LoginResponse } from '../../use-cases/LoginResponse';
 
 export class LoginPresenterSpy implements LoginPresenter {
   private invokedResponse: LoginResponse | null = null;
